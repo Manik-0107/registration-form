@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="icn.png">
+</head>
+<body>
+    <div class="wrapper">
+        <form action="">
+            <h1>Registration</h1>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" name="fullname" id="fullname" placeholder="Full Name" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-field">
+                    <input type="text" name="username" id="username" placeholder="User Name" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <i class='bx bxs-envelope'></i>
+                </div>
+                <div class="input-field">
+                    <input type="number" name="number" id="number" placeholder="Phone Number" required>
+                    <i class='bx bxs-phone'></i>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <div class="input-field">
+                    <input type="password" name="password" id="password" placeholder="Confirm Password" required>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+            </div>
+
+            <label><input type="checkbox" name="checkbox" id="checkbox">I hereby declare that hte above information provided is true and correct.</label>
+
+            <button type="submit" class="btn">Register</button>
+
+        </form>
+    </div>
+</body>
+</html>
